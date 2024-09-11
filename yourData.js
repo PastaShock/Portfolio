@@ -19,6 +19,15 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Roland Print Automation", //Project Title - Add Your Project Title Here
+      description: "A Powershell, Nodejs, MySQL and devtools project to automate my job as a print-pre-press operator",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      "./assets/roland.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/PastaShock/RolandPrintAutomation",
+    },
+    {
       title: "Cardiac Arrest", //Project Title - Add Your Project Title Here
       description: "Run or bike on Hard mode",
       //Project Image - Add Your Project Image Here
@@ -44,15 +53,6 @@ export default {
       "./assets/social-network.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/PastaShock/social-network-api",
-    },
-    {
-      title: "Roland Print Automation", //Project Title - Add Your Project Title Here
-      description: "A Powershell, Nodejs and devtools project to automate my job as a print-pre-press operator",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-      "./assets/roland.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/PastaShock/RolandPrintAutomation",
     },
     /*
     If You Want To Add More Project just Copy and Paste This At The End
