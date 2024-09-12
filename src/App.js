@@ -1,11 +1,11 @@
 import { useRef } from "react";
-import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
-import Socials from "../components/Socials";
-import WorkCard from "../components/WorkCard";
+import Header from "./components/Header";
+import ServiceCard from "./components/ServiceCard";
+import Socials from "./components/Socials";
+import WorkCard from "./components/WorkCard";
 
 // Local Data
-import data from "../yourData";
+import data from "./yourData";
 
 export default function Home() {
   // Ref
