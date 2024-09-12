@@ -2,14 +2,18 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pastashock.github.com/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next build; next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^6.1.1",
     "next": "^14.2.9",
     "postcss": "^8.4.13",
     "react": "18.1.0",
