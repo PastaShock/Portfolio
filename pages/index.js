@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import Link from "next/link";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
@@ -85,12 +84,6 @@ export default function Home() {
           <Socials />
         </div>
       </div>
-      <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
-      </h1>
     </div>
   );
 }
