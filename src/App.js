@@ -36,17 +36,17 @@ export default function Home() {
         handleAboutScroll={handleAboutScroll}
       />
       <div className="laptop:mt-20 mob:mt-10">
-        <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
+        <h2 className="mt-5 text-xl mob:text-5xl laptop:tet-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
           {data.headerTaglineOne} <br />
           {data.headerTaglineTwo}
-        </h1>
+        </h2>
         <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
       </div>
       <div
         className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={workRef}>
-        <h1 className="text-2xl text-bold">Work.</h1>
-        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
+        <h1 className="section-header">Work.</h1>
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {data.projects.map((project, index) => (
             <WorkCard
               key={index}
@@ -59,8 +59,8 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-2xl text-bold">Services.</h1>
-        <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">
+        <h1 className="section-header">Services.</h1>
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {data.services.map((service, index) => (
             <ServiceCard
               key={index}
@@ -73,13 +73,13 @@ export default function Home() {
       <div
         className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={aboutRef}>
-        <h1 className="text-2xl text-bold">About.</h1>
-        <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-3/5">
+        <h1 className="section-header">About.</h1>
+        <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-medium md:text-large lg:text-xl w-4/5 md:w-full lg:w-3/5">
           {data.aboutpara}
         </p>
       </div>
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-2xl text-bold">Contact.</h1>
+        <h1 className="section-header">Contact.</h1>
         <div className="mt-5">
           <Socials />
         </div>
