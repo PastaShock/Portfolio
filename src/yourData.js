@@ -16,6 +16,29 @@ export default {
 
   // End Header Details -----------------------
 
+  posts: [
+    {
+      title: "Roland Print Automation", //Project Title - Add Your Project Title Here
+      subtitle: "A Powershell, Nodejs, MySQL and devtools project to automate my job as a print-pre-press operator",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      "./assets/roland.png",
+      body:
+      "Here's how I did this project. I started a job that had a lot of very obvious inefficiencies. I worked through the process and learned how different things are done and.",
+      //Project URL - Add Your Project Url Here
+    },
+    {
+      title: "Cardiac Arrest", //Project Title - Add Your Project Title Here
+      subtitle: "Run or bike on Hard mode",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      "./assets/cardiacArrest.png",
+      body: "Cardiac Arrest is an app that me and my classmates made as part of our final project. We used React, express, node and the strava api to build an app to find the absolute toughest climbs in your area."
+      //Project URL - Add Your Project Url Here
+    }
+  ],
+  // End Posts Section -------------------
+
   // Work Section ------------------------
   projects: [
     {
@@ -101,6 +124,7 @@ export default {
                 In javascript I wrote scripts that manipulated a webpage to take over tasks that I would otherwise be clicking around in manually. I parsed information, made many conditional statements, used nested JS objects, created and exported JSON files to Powershell among other basic things.
                 When I developed my JS skills further, I used JSON in Powershell to take information from a webpage and make it usable in my prior scripts. I set up a lot of logging and tracking of my (regular day-to-day) work and, on the side, I've kept maintaining an updating code since`
   //   End About Section ---------------------
-};
+
+  }
 
 // Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
