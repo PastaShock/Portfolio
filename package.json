@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "serve": "serve --ssl-cert $SSL_CERT --ssl-pass $SSL_PASS -p $PORT -S build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
