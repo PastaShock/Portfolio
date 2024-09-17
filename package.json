@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "serve": "serve --ssl-cert $SSL_CERT --ssl-pass $SSL_PASS -p $PORT -S build",
+    "serve": "serve --ssl-cert /etc/letsencrypt/live/www.pastashock.com/fullchain.pem --ssl-key /etc/letsencrypt/live/www.pastashock.com/privkey.pem -p 443 -S build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
