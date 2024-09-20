@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.20",
+    "path": "^0.12.7",
     "postcss": "^8.4.45",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -15,7 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve --ssl-cert $SSL_CERT --ssl-key $SSL_KEY -p 443 -S build",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "dotenv-vault": "^1.26.2",
     "react-router": "^6.26.2",
     "react-router-dom": "^6.26.2"
   }

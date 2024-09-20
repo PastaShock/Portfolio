@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# React Portfolio Blog
+### A blog formatted andd created from a tempalte I used for my portfolio
+This project is an extension of my portfolio. I started there and reworked it as a way to re-learn react and to deploy a working blog.
+
+### Goals for This Project
+I intend to build a modular blog with elements that are frequently reused as data is pulled in.
+The blog should be available on ssl on a subdomain of my portfolio
+The data should live in a database and images on a cdn or s3 bucket
+- It needs to be matched to a database app
+- it neets a way to be lined to a repository
+I would like the main page to show blog posts on pages (10 posts/page)
+I would like a blog post creator page
+- It should have an image uploader that uploads an image to the repository
+    - it should rename the image with the title of the blog (blog-post-title-header.img)
+- it should have basic formatting (BBcode or markdown)
+- it should allow inline images
+- it should have different post types (text, gallery, video/media)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -7,6 +23,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+runs the app in production mode on port 443. Uses SSL certificates and should really only work on the production server.
+I could also run the app once its been built with nginx or apache
+
+### `npm dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
