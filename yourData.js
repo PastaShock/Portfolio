@@ -11,7 +11,7 @@ export default {
   socials: [
     { title: "Github", link: "https://github.com/pastashock" },
     { title: "LinkedIn", link: "https://www.linkedin.com/in/george-pastushok-978621232/" },
-    { title: "Email", link: "mailto:georgepastushok@gmail.com" },
+    { title: "Email", link: "mailto:george@pastashock.com" },
   ],
 
   // End Header Details -----------------------
